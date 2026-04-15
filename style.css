@@ -951,12 +951,13 @@ p {
     padding: 0 5%;
     overflow-x: auto;
     flex-wrap: nowrap;
+    gap: 0.5rem;
   }
 
   .projects-nav button {
-    min-width: 70px;
-    font-size: 0.7rem;
-    padding: 0.4rem 0.5rem;
+    min-width: 50px;
+    font-size: 0.6rem;
+    padding: 0.3rem 0.4rem;
     flex-shrink: 0;
   }
 
