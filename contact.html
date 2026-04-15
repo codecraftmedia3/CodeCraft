@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CodeCraft Contact</title>
+</head>
+<body>
+<div class="loader" id="loader">
+  <svg width="120" height="120" viewBox="0 0 100 100">
+    <circle cx="50" cy="50" r="40" stroke="#7a00ff" stroke-width="4" fill="none" opacity="0.2"/>
+    <circle cx="50" cy="50" r="40" stroke="#00c2ff" stroke-width="4" fill="none"
+      stroke-dasharray="200" stroke-dashoffset="200">
+      <animate attributeName="stroke-dashoffset" from="200" to="0" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+  </svg>
+</div>
+<div class="root">
+
+    <header class="projects-header container" id="contact-hero">
+        <div class="projects-intro">
+            <h1>Contact</h1>
+            <p>Start your next digital project with CodeCraft. Send us a message and we’ll follow up with a custom plan for your brand.</p>
+        </div>
+    </header>
+
+    <section class="container contact-form-section">
+        <header>
+            <h2>Send a Message</h2>
+        </header>
+        <form class="contact-form" action="#" method="post">
+            <label>
+                Full Name
+                <input type="text" name="name" placeholder="Your full name" required>
+            </label>
+            <label>
+                Email Address
+                <input type="email" name="email" placeholder="Your email" required>
+            </label>
+            <label>
+                Project Type
+                <select name="projectType" required>
+                    <option value="">Select a project type</option>
+                    <option value="website">Web-site Design</option>
+                    <option value="animation">3D Animation</option>
+                    <option value="content">Content Creation</option>
+                    <option value="social">Social Media Management</option>
+                </select>
+            </label>
+            <label>
+                Message
+                <textarea name="message" rows="6" placeholder="Tell us about your project" required></textarea>
+            </label>
+            <button type="submit">Send Inquiry</button>
+        </form>
+    </section>
+
+    <section class="container projects" id="explore">
+        <header>
+            <h2>Explore Our Work</h2>
+        </header>
+        <div class="project-grid">
+            <div class="project-card">
+                <a href="index.html" class="project-link" target="_self">
+                    <span>Back Home</span>
+                    <img src="./home.gif" alt="Home" class="project-gif">
+                    <p class="project-hover-text">Return to the main page <br>to explore our services and about section.</p>
+                </a>
+            </div>
+            <div class="project-card">
+                <a href="contact.html" class="project-link contact-link" target="_self">
+                    <span>Contact us</span>
+                    <img src="./customer-service.gif" alt="Customer Service" class="project-gif">
+                    <p class="project-hover-text">Reach out to discuss your next website, animation, or creative campaign — let’s bring your vision to life.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer" aria-label="Site footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <h3>CodeCraft</h3>
+                <p>Build. Design. Scale. — modern web experiences for growing brands.</p>
+            </div>
+
+            <nav class="footer-links" aria-label="Footer navigation">
+                <a href="index.html#home">Home</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#service">Services</a>
+                <a href="index.html#ourwork">Work</a>
+                <a href="index.html#projects">Projects</a>
+            </nav>
+
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p><b>Phone:</b> +251947330241 / +251929672654</p>
+                <p><b>Email:</b> <a href="mailto:codecraftmedia3@gmail.com">codecraftmedia3@gmail.com</a></p>
+                <p><b>Telegram:</b> <a href="https://t.me/CodeCraftMedia" target="_blank">t.me/CodeCraftMedia</a></p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <span>© <span id="year"></span> CodeCraft. All rights reserved.</span>
+        </div>
+    </footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
