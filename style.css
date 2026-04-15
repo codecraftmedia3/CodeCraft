@@ -615,6 +615,18 @@ p {
   .container {
     padding: 4rem 4%;
   }
+
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form select {
+    font-size: 1rem;
+    padding: 1.2rem 1.4rem;
+    min-height: 48px;
+  }
+
+  .contact-form label {
+    font-size: 1rem;
+  }
 }
 
 
@@ -959,6 +971,18 @@ p {
     font-size: 0.6rem;
     padding: 0.3rem 0.4rem;
     flex-shrink: 0;
+  }
+
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form select {
+    font-size: 0.9rem;
+    padding: 0.8rem 1rem;
+    min-height: 48px;
+  }
+
+  .contact-form label {
+    font-size: 0.9rem;
   }
 
   .project-card-grid {
