@@ -71,7 +71,7 @@ body {
 
   opacity: 0;
   transform: translateY(50px);
-  transition: all 0.8s ease;
+  transition: all 0.4s ease;
 }
 
 .container.show {
@@ -178,7 +178,7 @@ body {
 
   opacity: 0;
   transform: translateY(20px);
-  transition: 0.8s ease;
+  transition: 0.4s ease;
 }
 
 .hero h1.show {
@@ -194,7 +194,7 @@ body {
 
   opacity: 0;
   transform: translateY(20px);
-  transition: 0.8s ease;
+  transition: 0.4s ease;
 }
 
 .hero h2.show {
